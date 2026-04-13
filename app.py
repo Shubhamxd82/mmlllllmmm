@@ -130,7 +130,7 @@ def multi():
                 
                 # انتظار 60 ثانية بين المحاولات
                 if i < count - 1:
-                    time.sleep(60)
+                    time.sleep(10)
                     
             except Exception as e:
                 results.append(f"Attempt {i+1} failed: {str(e)}")
